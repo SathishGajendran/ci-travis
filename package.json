@@ -1,0 +1,22 @@
+{
+  "name": "ci-travis",
+  "version": "1.0.0",
+  "description": "Continuous integration sample",
+  "main": "app.js",
+  "scripts": {
+    "test": "./node_modules/jshint/bin/jshint app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SathishGajendran/ci-travis.git"
+  },
+  "author": "Sathish G (sathish.gajendran@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SathishGajendran/ci-travis/issues"
+  },
+  "homepage": "https://github.com/SathishGajendran/ci-travis#readme",
+  "devDependencies": {
+    "jshint": "^2.9.2"
+  }
+}
